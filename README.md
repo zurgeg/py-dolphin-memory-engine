@@ -21,9 +21,10 @@ This program is licensed under the MIT license which grants you the permission t
 ## Development Help
 
 To compile the extension in debug:
-
+```
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ python -m pip install Cython pytest
 $ python setup.py build_ext -g --inplace --force
 $ python -m pytest
+```
